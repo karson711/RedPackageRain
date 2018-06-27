@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF22C89720E31E74001B773F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C89620E31E74001B773F /* AppDelegate.m */; };
+		FF22C89A20E31E74001B773F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C89920E31E74001B773F /* ViewController.m */; };
+		FF22C89D20E31E74001B773F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF22C89B20E31E74001B773F /* Main.storyboard */; };
+		FF22C89F20E31E76001B773F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF22C89E20E31E76001B773F /* Assets.xcassets */; };
+		FF22C8A220E31E76001B773F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF22C8A020E31E76001B773F /* LaunchScreen.storyboard */; };
+		FF22C8A520E31E76001B773F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C8A420E31E76001B773F /* main.m */; };
+		FF22C8AF20E31E76001B773F /* RedPackageRainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C8AE20E31E76001B773F /* RedPackageRainTests.m */; };
+		FF22C8BA20E31E76001B773F /* RedPackageRainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C8B920E31E76001B773F /* RedPackageRainUITests.m */; };
+		FF22C8C920E32AD3001B773F /* RedPackageImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22C8C820E32AD3001B773F /* RedPackageImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF22C8AB20E31E76001B773F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF22C88A20E31E74001B773F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF22C89120E31E74001B773F;
+			remoteInfo = RedPackageRain;
+		};
+		FF22C8B620E31E76001B773F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF22C88A20E31E74001B773F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF22C89120E31E74001B773F;
+			remoteInfo = RedPackageRain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF22C89220E31E74001B773F /* RedPackageRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPackageRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF22C89520E31E74001B773F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF22C89620E31E74001B773F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF22C89820E31E74001B773F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF22C89920E31E74001B773F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF22C89C20E31E74001B773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF22C89E20E31E76001B773F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF22C8A120E31E76001B773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF22C8A320E31E76001B773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF22C8A420E31E76001B773F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF22C8AA20E31E76001B773F /* RedPackageRainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackageRainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF22C8AE20E31E76001B773F /* RedPackageRainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackageRainTests.m; sourceTree = "<group>"; };
+		FF22C8B020E31E76001B773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF22C8B520E31E76001B773F /* RedPackageRainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackageRainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF22C8B920E31E76001B773F /* RedPackageRainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackageRainUITests.m; sourceTree = "<group>"; };
+		FF22C8BB20E31E76001B773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF22C8C720E32AD2001B773F /* RedPackageImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedPackageImageView.h; sourceTree = "<group>"; };
+		FF22C8C820E32AD3001B773F /* RedPackageImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackageImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF22C88F20E31E74001B773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8A720E31E76001B773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8B220E31E76001B773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF22C88920E31E74001B773F = {
+			isa = PBXGroup;
+			children = (
+				FF22C89420E31E74001B773F /* RedPackageRain */,
+				FF22C8AD20E31E76001B773F /* RedPackageRainTests */,
+				FF22C8B820E31E76001B773F /* RedPackageRainUITests */,
+				FF22C89320E31E74001B773F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF22C89320E31E74001B773F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C89220E31E74001B773F /* RedPackageRain.app */,
+				FF22C8AA20E31E76001B773F /* RedPackageRainTests.xctest */,
+				FF22C8B520E31E76001B773F /* RedPackageRainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF22C89420E31E74001B773F /* RedPackageRain */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C89520E31E74001B773F /* AppDelegate.h */,
+				FF22C89620E31E74001B773F /* AppDelegate.m */,
+				FF22C89820E31E74001B773F /* ViewController.h */,
+				FF22C89920E31E74001B773F /* ViewController.m */,
+				FF22C8C720E32AD2001B773F /* RedPackageImageView.h */,
+				FF22C8C820E32AD3001B773F /* RedPackageImageView.m */,
+				FF22C89B20E31E74001B773F /* Main.storyboard */,
+				FF22C89E20E31E76001B773F /* Assets.xcassets */,
+				FF22C8A020E31E76001B773F /* LaunchScreen.storyboard */,
+				FF22C8A320E31E76001B773F /* Info.plist */,
+				FF22C8A420E31E76001B773F /* main.m */,
+			);
+			path = RedPackageRain;
+			sourceTree = "<group>";
+		};
+		FF22C8AD20E31E76001B773F /* RedPackageRainTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C8AE20E31E76001B773F /* RedPackageRainTests.m */,
+				FF22C8B020E31E76001B773F /* Info.plist */,
+			);
+			path = RedPackageRainTests;
+			sourceTree = "<group>";
+		};
+		FF22C8B820E31E76001B773F /* RedPackageRainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C8B920E31E76001B773F /* RedPackageRainUITests.m */,
+				FF22C8BB20E31E76001B773F /* Info.plist */,
+			);
+			path = RedPackageRainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF22C89120E31E74001B773F /* RedPackageRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF22C8BE20E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRain" */;
+			buildPhases = (
+				FF22C88E20E31E74001B773F /* Sources */,
+				FF22C88F20E31E74001B773F /* Frameworks */,
+				FF22C89020E31E74001B773F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPackageRain;
+			productName = RedPackageRain;
+			productReference = FF22C89220E31E74001B773F /* RedPackageRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF22C8A920E31E76001B773F /* RedPackageRainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF22C8C120E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRainTests" */;
+			buildPhases = (
+				FF22C8A620E31E76001B773F /* Sources */,
+				FF22C8A720E31E76001B773F /* Frameworks */,
+				FF22C8A820E31E76001B773F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF22C8AC20E31E76001B773F /* PBXTargetDependency */,
+			);
+			name = RedPackageRainTests;
+			productName = RedPackageRainTests;
+			productReference = FF22C8AA20E31E76001B773F /* RedPackageRainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF22C8B420E31E76001B773F /* RedPackageRainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF22C8C420E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRainUITests" */;
+			buildPhases = (
+				FF22C8B120E31E76001B773F /* Sources */,
+				FF22C8B220E31E76001B773F /* Frameworks */,
+				FF22C8B320E31E76001B773F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF22C8B720E31E76001B773F /* PBXTargetDependency */,
+			);
+			name = RedPackageRainUITests;
+			productName = RedPackageRainUITests;
+			productReference = FF22C8B520E31E76001B773F /* RedPackageRainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF22C88A20E31E74001B773F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FF22C89120E31E74001B773F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					FF22C8A920E31E76001B773F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF22C89120E31E74001B773F;
+					};
+					FF22C8B420E31E76001B773F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF22C89120E31E74001B773F;
+					};
+				};
+			};
+			buildConfigurationList = FF22C88D20E31E74001B773F /* Build configuration list for PBXProject "RedPackageRain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF22C88920E31E74001B773F;
+			productRefGroup = FF22C89320E31E74001B773F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF22C89120E31E74001B773F /* RedPackageRain */,
+				FF22C8A920E31E76001B773F /* RedPackageRainTests */,
+				FF22C8B420E31E76001B773F /* RedPackageRainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF22C89020E31E74001B773F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C8A220E31E76001B773F /* LaunchScreen.storyboard in Resources */,
+				FF22C89F20E31E76001B773F /* Assets.xcassets in Resources */,
+				FF22C89D20E31E74001B773F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8A820E31E76001B773F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8B320E31E76001B773F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF22C88E20E31E74001B773F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C89A20E31E74001B773F /* ViewController.m in Sources */,
+				FF22C8C920E32AD3001B773F /* RedPackageImageView.m in Sources */,
+				FF22C8A520E31E76001B773F /* main.m in Sources */,
+				FF22C89720E31E74001B773F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8A620E31E76001B773F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C8AF20E31E76001B773F /* RedPackageRainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF22C8B120E31E76001B773F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C8BA20E31E76001B773F /* RedPackageRainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF22C8AC20E31E76001B773F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF22C89120E31E74001B773F /* RedPackageRain */;
+			targetProxy = FF22C8AB20E31E76001B773F /* PBXContainerItemProxy */;
+		};
+		FF22C8B720E31E76001B773F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF22C89120E31E74001B773F /* RedPackageRain */;
+			targetProxy = FF22C8B620E31E76001B773F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF22C89B20E31E74001B773F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF22C89C20E31E74001B773F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF22C8A020E31E76001B773F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF22C8A120E31E76001B773F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF22C8BC20E31E76001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF22C8BD20E31E76001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF22C8BF20E31E76001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF22C8C020E31E76001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF22C8C220E31E76001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackageRain.app/RedPackageRain";
+			};
+			name = Debug;
+		};
+		FF22C8C320E31E76001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackageRain.app/RedPackageRain";
+			};
+			name = Release;
+		};
+		FF22C8C520E31E76001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedPackageRain;
+			};
+			name = Debug;
+		};
+		FF22C8C620E31E76001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = RedPackageRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.RedPackageRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedPackageRain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF22C88D20E31E74001B773F /* Build configuration list for PBXProject "RedPackageRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C8BC20E31E76001B773F /* Debug */,
+				FF22C8BD20E31E76001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF22C8BE20E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C8BF20E31E76001B773F /* Debug */,
+				FF22C8C020E31E76001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF22C8C120E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C8C220E31E76001B773F /* Debug */,
+				FF22C8C320E31E76001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF22C8C420E31E76001B773F /* Build configuration list for PBXNativeTarget "RedPackageRainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C8C520E31E76001B773F /* Debug */,
+				FF22C8C620E31E76001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF22C88A20E31E74001B773F /* Project object */;
+}
